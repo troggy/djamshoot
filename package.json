@@ -1,0 +1,30 @@
+{
+  "name": "ionicbot",
+  "version": "1.0.0",
+  "description": "Slack bot for uploading new Ionic app builds",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troggy/ionicbot.git"
+  },
+  "keywords": [
+    "slack",
+    "ionic",
+    "bot"
+  ],
+  "author": "Kosta Korenkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troggy/ionicbot/issues"
+  },
+  "homepage": "https://github.com/troggy/ionicbot#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "http-auth": "^2.3.1",
+    "request": "^2.72.0"
+  }
+}
